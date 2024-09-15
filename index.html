@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PLasticShooter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="instructions">
+      <div class="intro">
+        <h2>Plastic Shooter</h2>
+        <p class="intro-text">
+          You are the <strong>Yellow Submarine!</strong><br />
+          <br />
+          Move around and shoot all the trash to stop Nemo from eating them.
+          <br />
+          <br />
+          Use <strong>ARROW buttons</strong> to move and
+          <strong>SPACE BAR</strong> to shoot.
+        </p>
+        <br />
+        <button class="btn btn-start">START</button>
+        <br />
+        <br />
+        <p class="credits">Credits</p>
+      </div>
+    </div>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>
+          <a
+            href="https://opengameart.org/content/bubbling-acid"
+            target="_blank"
+            >Creative Commons Bubbling Acid</a
+          >
+          by spookymodem is licensed under CC BY 3.0
+        </p>
+        <p>
+          <a
+            href="https://opengameart.org/content/oldschool-win-and-die-jump-and-run-sounds"
+            target="_blank"
+            >Creative Commons Oldschool win and die jump and run sounds</a
+          >
+          by sauer2 is licensed under CC BY 3.0
+        </p>
+        <p>
+          <a href="https://opengameart.org/content/laser-fire" target="_blank"
+            >Creative Commons Laser Fire</a
+          >
+          by dklon is licensed under CC BY 3.0
+        </p>
+        <p>
+          Icons made by
+          <a
+            href="https://www.flaticon.com/authors/surang"
+            target="_blank"
+            title="surang"
+            >surang</a
+          >
+          from
+          <a href="https://www.flaticon.com/" target="_blank" title="Flaticon"
+            >www.flaticon.com</a
+          >
+        </p>
+        <p>
+          Icons made by
+          <a
+            href="https://www.flaticon.com/authors/freepik"
+            target="_blank"
+            title="Freepik"
+            >Freepik</a
+          >
+          from
+          <a href="https://www.flaticon.com/" target="_blank" title="Flaticon"
+            >www.flaticon.com</a
+          >
+        </p>
+      </div>
+    </div>
+    <div class="score-card">
+      <div class="score">
+        <div class="score-label">SCORE: <span class="score-value"></span></div>
+      </div>
+      <div class="health">
+        <span class="health-label">Fish Health</span>
+        <div class="health-box"><div class="health-bar"></div></div>
+      </div>
+    </div>
+    <div class="end-message">
+      <div class="game-lose">
+        <p class="game-lose-text1"></p>
+        <p class="game-lose-text2"></p>
+        <button
+          onclick="window.location.reload()"
+          class="btn play-again-lose"
+        ></button>
+      </div>
+      <div class="game-win">
+        <p class="game-win-text1"></p>
+        <p class="game-win-text2"></p>
+        <button
+          onclick="window.location.reload()"
+          class="btn play-again-win"
+        ></button>
+      </div>
+    </div>
+    <script src="p5/p5.js"></script>
+    <script src="p5/addons/p5.sound.js"></script>
+    <script src="p5/addons/p5.play.js"></script>
+    <script src="index.js"></script>
+    <script src="src/missile.js"></script>
+    <script src="src/preload.js"></script>
+    <script src="src/const.js"></script>
+    <script src="src/submarine.js"></script>
+    <script src="src/trash.js"></script>
+    <script src="src/fish.js"></script>
+
+    <script src="src/background.js"></script>
+    <script src="src/game.js"></script>
+    <script src="src/main.js"></script>
+  </body>
+</html>

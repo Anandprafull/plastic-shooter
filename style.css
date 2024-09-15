@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.instructions {
+  position: absolute;
+  background: #a1dff7;
+  width: 1500px;
+  height:900px
+}
+
+.intro {
+ 
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  padding: 60px;
+  margin: 150px 350px;
+  text-align: center;
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+  color: #585858;
+}
+
+.btn {
+    background-color: #ffbe0b;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  }
+
+  .credits {
+    color: lightgrey;
+  }
+
+  .game-lose{
+    position: absolute;
+    background:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    padding: 60px;
+    margin: 250px 500px;
+    text-align: center;
+  align-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    color: #585858;
+    display: none
+
+  }
+
+  .game-win{
+    position: absolute;
+    background:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    padding: 60px;
+    margin: 250px 500px;
+    text-align: center;
+  align-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    color: #585858;
+    display: none
+
+  }
+
+  /* .end-message{
+    position: absolute;
+  width: 1500px;
+  height:900px
+  } */
+
+  .health-box{
+    background-color: #ccc;
+  height: 30px;
+  width: 250px;
+  /* margin:1px 120px; */
+  /* margin: 60px 1200px; */
+  position: absolute;
+  border-radius: 5px;
+  }
+
+  .health-bar {
+    background-color: #76ba1b;
+    width: 220px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid #5c9114
+
+   
+  }
+
+.score-card{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    /* color: #585858; */
+    position: absolute;
+    display: none;
+    font-weight: bold;
+    width: 1500px;
+    height: 900px;
+    margin: 50px 0 0 50px;
+
+  display: none;
+  
+}
+
+.health-label{
+  display: inline;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.modal-content{
+  background-color: #fefefe;
+  margin: 10% 05%; /* 15% from the top and centered */
+  padding: 60px;
+  border: 1px solid #888;
+  width: 50%; 
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+  color: #585858;
+  position: fixed;
+  /* font-weight: bold; */
+  
+}
+
+.modal{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+  
+.credits{
+  cursor: pointer;
+}
+
+
